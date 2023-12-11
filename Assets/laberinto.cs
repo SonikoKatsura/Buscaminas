@@ -69,11 +69,11 @@ public class laberinto : MonoBehaviour
             {
                 if (maze[i, j] == 1)
                 {
-                    map[i][j] = Instantiate(Wall, new Vector2(i, j), Quaternion.identity);
+                     Instantiate(Wall, new Vector2(i, j), Quaternion.identity);
                 }
                 else
                 {
-                    map[i][j] = Instantiate(Path, new Vector2(i, j), Quaternion.identity);
+                     Instantiate(Path, new Vector2(i, j), Quaternion.identity);
                 }
             }
             Debug.Log("\n");

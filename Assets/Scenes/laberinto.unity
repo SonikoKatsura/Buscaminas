@@ -152,8 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41c150a12d93be844907b731257e67ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 10
-  height: 10
+  width: 13
+  height: 7
   Wall: {fileID: 2633724028030071137, guid: 90d7c8bd52197ef4eaf8834bd256a57e, type: 3}
   Path: {fileID: 81771923648378077, guid: 3e099dc593e4c1b4c829ac1deeb49630, type: 3}
 --- !u!4 &1732158006
@@ -165,7 +165,7 @@ Transform:
   m_GameObject: {fileID: 1732158004}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.7367868, y: 3.4862845, z: 0.12641144}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -257,7 +257,7 @@ Transform:
   m_GameObject: {fileID: 1753671566}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 8.43, y: 4.52, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
